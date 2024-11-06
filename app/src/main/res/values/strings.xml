@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">calculo_mental</string>
+
+    <string-array name="dificuldades">
+        <item>Fácil</item>
+        <item>Médio</item>
+        <item>Difícil</item>
+        <item>Muito Difícil</item>
+    </string-array>
+
+    <string-array name="operacoes">
+        <item>Somar</item>
+        <item>Subtrair</item>
+        <item>Multiplicar</item>
+    </string-array>
+
+</resources>

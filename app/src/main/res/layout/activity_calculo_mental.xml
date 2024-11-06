@@ -1,0 +1,76 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".view.Calculo_Mental">
+
+    <TextView
+        android:id="@+id/tvDificuldade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nível de Dificuldade: "
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/spinnerDificuldade"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/tvDificuldade"
+        android:layout_marginTop="16dp"
+        android:entries="@array/dificuldades"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvOperacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerDificuldade"
+        android:layout_marginTop="16dp"
+        android:text="Operação"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etResposta"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Digite sua resposta"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:layout_below="@id/tvOperacao"
+        android:layout_marginTop="16dp"
+        android:minHeight="56dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"
+        android:layout_below="@id/etResposta"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:layout_below="@id/btnConfirmar"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvPontos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pontos: 0"
+        android:textSize="25sp"
+        android:layout_below="@id/btnContinuar"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

@@ -49,6 +49,15 @@ do nível de dificuldade da questão para as operações.
   $ Ativar o modulo desenvolvedor do Android no seu celular para testar o aplicativo
 
 ```
+## Testar o projeto no celular 
+
+```bash 
+
+  $ Clicar na pasta app/release/app-release.apk
+
+  $ Depois clicar na setinha para baixo do github - Download raw file
+
+```
 
 ## Visualização do Projeto 
 Visualização: https://www.youtube.com/watch?v=ec9Mm5kCPjw&list=PLWg5CC8aATZ5RrIdn_Wg7dK6YcKAlXKhs&index=3&ab_channel=Oentusiastadatecnologia
